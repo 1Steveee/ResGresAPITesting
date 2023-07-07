@@ -37,5 +37,5 @@ jobs:
       if: always()
       with:
         name: Test Results
-        path: ResGresAPITesting/target/surefire-reports/*.xml
+        path: ResGresAPITesting/target/surefire-reports/test.xml
         reporter: java-junit
