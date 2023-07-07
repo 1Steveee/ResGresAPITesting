@@ -36,6 +36,7 @@ public class ResGresTest extends BaseSetup{
                 .and()
                 .assertThat()
                 .body("createdAt", notNullValue());
+//        testing pipeline
     }
 
     @Test
