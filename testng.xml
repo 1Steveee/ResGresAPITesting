@@ -3,7 +3,13 @@
 <suite name="ResGres API Tesing" parallel="classes">
     <test name="API Testing">
         <classes>
-            <class name="org.example.ResGresTest"/>
+            <class name="org.example.ResGresTest">
+                <methods>
+                    <include name="testCreatingNewEmployee"/>
+                    <include name="testUpdateExistingEmployee"/>
+                    <include name="testDeleteEmployee"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
